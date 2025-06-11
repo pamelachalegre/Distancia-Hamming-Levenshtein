@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "pocketpy.h": "c"
+        "pocketpy.h": "c",
+        "stdlib.h": "c"
     }
 }

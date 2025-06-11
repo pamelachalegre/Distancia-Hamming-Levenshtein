@@ -1,7 +1,7 @@
 TARGET = main
 CC = gcc
 CFLAGS = -Wall
-OBJ = main.o pocketpy.o levenshtein.o
+OBJ = main.o pocketpy.o levenshtein.o hamming.o
 
 # Alvo padrão
 all: $(TARGET)
@@ -19,6 +19,9 @@ pocketpy.o: pocketpy.c
 
 levenshtein.o: levenshtein.c
 	$(CC) $(CFLAGS) -c levenshtein.c
+
+hamming.o: hamming.c
+	$(CC) $(CFLAGS) -c hamming.c
 
 # Remoção dos arquivos gerados
 clean:
