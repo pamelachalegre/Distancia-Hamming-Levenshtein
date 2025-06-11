@@ -1,6 +1,6 @@
 # Projeto de Integração C e Python com Algoritmos de Distância
 
-Este projeto implementa um interpretador Python embutido em C usando a biblioteca pocketpy, com funções nativas para cálculo das distâncias de Levenshtein e Hamming. 
+Este projeto implementa um interpretador Python embutido em C usando a biblioteca pocketpy, com funções para calcular distâncias de **Levenshtein** e **Hamming**.
 
 - **Nome**: Pâmela Camilo Chalegre
 - **RA**: 134241
@@ -12,10 +12,10 @@ O algoritmo de distância de Levenshtein está licenciado sob **The MIT License*
 
 ## Compilação e Execução
 
-# Requisitos:
+Requisitos:
 - Compilador GCC instalado.
 
-# Comandos:
+Comandos:
 ```bash
 # Compilar o projeto
 make
