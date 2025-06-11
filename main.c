@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "levenshtein.h"
+#include "hamming.h"
 #include "pocketpy.h"
 
 static bool py_levenshtein(int argc, py_Ref argv) {  
